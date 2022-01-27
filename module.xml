@@ -6,15 +6,15 @@
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.GblToJSON.PKG"/>
-      <Resource Name="dc.MultiD.GBL"/>
+      <Resource Name="dc.GblToJSON.E.CLS"/>
+      <Resource Name="dc.MultiDe.GBL"/>
       <Description>create a JSON Object from Global and with Importer - Efficient</Description>
       	 <Author>
     			<Person>Robert C. Cemper</Person>
 		    	<CopyrightDate>2022</CopyrightDate>
 			    <License>MIT</License>
 			    <Notes>
-				      repository: https://github.com/rcemper/GlobalToJSON-Academic
+				      repository: https://github.com/rcemper/GlobalToJSON-Efficient
 			    </Notes>
 		    </Author>
     </Module>
