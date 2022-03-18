@@ -2,5 +2,6 @@ zn "%SYS"
 Do ##class(Security.Users).UnExpireUserPasswords("*")
 zn "USER"
 zpm "install pretty-json"
+zpm "install webterminal"
 zpm "load /opt/irisbuild/ -v":1
 halt 
