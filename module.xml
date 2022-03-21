@@ -3,10 +3,11 @@
   <Document name="gbl-to-json-e.ZPM">
     <Module>
       <Name>gbl-to-json-e</Name>
-      <Version>0.0.3</Version>
+      <Version>0.1.0</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.GblToJSON.E.CLS"/>
+      <Resource Name="dc.GblToJSON.EX.CLS"/>
       <Resource Name="dc.MultiDe.GBL"/>
       <Description>create a JSON Object from Global and with Importer - Efficient</Description>
       	 <Author>
