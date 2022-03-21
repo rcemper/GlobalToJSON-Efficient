@@ -154,6 +154,43 @@ USER>zw ^dc.MultiD
 
 USER>
 ```
+### New Version 0.1.0 ###
+The new version takes care of large Globals that may break your available memory.     
+So the JSON Object is exported to a file.    
+```
+USER>write ##class(dc.GblToJSON.EX).export("^dc.MultiD")
+File gbl.json created
+```
+And the related loader creates the Global  
+```
+USER>write ##class(dc.GblToJSON.EX).import()
+Global ^dc.MultiD loaded
+```
+and to see the generated file there is a show() method  
+```
+USER>write ##class(dc.GblToJSON.EX).show()
+{"gbl":[
+{"node":"^dc.MultiD","val":5},
+{"node":"^dc.MultiD(1)","val":"$lb(\"Braam,Ted Q.\",51353)"},
+{"node":"^dc.MultiD(1,\"mJSON\")","val":"{}"},
+{"node":"^dc.MultiD(2)","val":"$lb(\"Klingman,Uma C.\",62459)"},
+{"node":"^dc.MultiD(2,2,\"Multi\",\"a\")","val":1},
+{"node":"^dc.MultiD(2,2,\"Multi\",\"rob\",1)","val":"rcc"},
+{"node":"^dc.MultiD(2,2,\"Multi\",\"rob\",2)","val":2222},
+{"node":"^dc.MultiD(2,\"Multi\",\"a\")","val":1},
+{"node":"^dc.MultiD(2,\"Multi\",\"rob\",1)","val":"rcc"},
+{"node":"^dc.MultiD(2,\"Multi\",\"rob\",2)","val":2222},
+{"node":"^dc.MultiD(2,\"mJSON\")","val":"{\"A\":\"ahahah\",\"Rob\":\"VIP\",\"Rob2\":1111,\"Rob3\":true}"},
+{"node":"^dc.MultiD(3)","val":"$lb(\"Goldman,Kenny H.\",45831)"},
+{"node":"^dc.MultiD(3,\"mJSON\")","val":"{}"},
+{"node":"^dc.MultiD(4)","val":"$lb(\"\",\"\")"},
+{"node":"^dc.MultiD(4,\"mJSON\")","val":"{\"rcc\":122}"},
+{"node":"^dc.MultiD(5)","val":"$lb(\"\",\"\")"},
+{"node":"^dc.MultiD(5,\"mJSON\")","val":"{}"}
+]}
+***** gbl.json *****
+```
+
 **q.a.d.**   
 ### Code Quality 
 ![CodeQuality](https://raw.githubusercontent.com/rcemper/GlobalToJSON-Efficient/master/CodeQuality.JPG) 
