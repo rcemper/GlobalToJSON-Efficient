@@ -1,6 +1,6 @@
 # GlobalToJSON-Efficient
 This package offers a utility to load a Global into JSON object and to create a    
-Global from this type of JSON object. ***Efficient*** refers to the structure created.    
+Global from this type of JSON object. ***Efficient*** refers to the structure created.     
 Only Globals nodes containing data are presented in the generated JSON object.   
 
 ![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-Efficient/master/Globals.png)    
