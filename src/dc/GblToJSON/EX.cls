@@ -13,7 +13,7 @@ ClassMethod export(gref As %String = "^%", file = "gbl.json") As %String
 	quit "File "_%file_" created"
 }
 
-ClassMethod jsondump(json = "") As %String
+ClassMethod jsondump() As %String
 {
 	set node=..node()
 	use %file
