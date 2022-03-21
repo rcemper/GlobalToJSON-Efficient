@@ -1,9 +1,6 @@
 Class dc.GblToJSON.EX
 {
-
-ClassMethod export(
-	gref As %String = "^%",
-	file = "gbl.json") As %String
+ClassMethod export(gref As %String = "^%", file = "gbl.json") As %String
 {
 	new %gref,%file
 	set %gref=gref,%file=file
