@@ -192,12 +192,12 @@ USER>write ##class(dc.GblToJSON.EX).show()
 ```
 
 **q.a.d.**   
-### Code Quality 
-![CodeQuality](https://raw.githubusercontent.com/rcemper/GlobalToJSON-Efficient/master/CodeQuality.JPG) 
 
 [Video](https://youtu.be/8Fz2537FHzc)   
 
 [Online Demo Terminal](https://gbl-to-json-e.demo.community.intersystems.com/terminal/)      
 [Online Demo SMP](https://gbl-to-json-e.demo.community.intersystems.com/csp/sys/%25CSP.Portal.Home.zen)   
 
-[Article in DC](https://community.intersystems.com/post/globaltojson-efficient)
+[Article in DC](https://community.intersystems.com/post/globaltojson-efficient)   
+
+**Code Quality** in SCREENSHOTS 
