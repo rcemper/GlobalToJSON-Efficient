@@ -3,7 +3,7 @@ This package offers a utility to load a Global into JSON object and to create a
 Global from this type of JSON object. ***Efficient*** refers to the structure created.     
 Only Globals nodes containing data are presented in the generated JSON object.   
 
-![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-Efficient/master/Globals.png)    
+<img width0"80%" src="https://raw.githubusercontent.com/rcemper/GlobalToJSON-Efficient/master/Globals.png">    
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
@@ -193,11 +193,12 @@ USER>write ##class(dc.GblToJSON.EX).show()
 
 **q.a.d.**   
 
+[Article in DC](https://community.intersystems.com/post/globaltojson-efficient)   
+
 [Video](https://youtu.be/8Fz2537FHzc)   
 
 [Online Demo Terminal](https://gbl-to-json-e.demo.community.intersystems.com/terminal/)      
 [Online Demo SMP](https://gbl-to-json-e.demo.community.intersystems.com/csp/sys/%25CSP.Portal.Home.zen)   
 
-[Article in DC](https://community.intersystems.com/post/globaltojson-efficient)   
-
-**Code Quality** in SCREENSHOTS 
+**Code Quality**  
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1614/screenshots/loqtb1hrvlb4x5szqd61rnndms0.jpg">
