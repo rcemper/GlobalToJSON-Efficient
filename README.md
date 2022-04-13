@@ -3,7 +3,7 @@ This package offers a utility to load a Global into JSON object and to create a
 Global from this type of JSON object. ***Efficient*** refers to the structure created.     
 Only Globals nodes containing data are presented in the generated JSON object.   
 
-<img width0"80%" src="https://raw.githubusercontent.com/rcemper/GlobalToJSON-Efficient/master/Globals.png">    
+<img width="80%" src="https://raw.githubusercontent.com/rcemper/GlobalToJSON-Efficient/master/Globals.png">    
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
